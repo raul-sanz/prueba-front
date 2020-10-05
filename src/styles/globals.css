@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.MuiDrawer-paper {
+  width: 80% !important;
+}
+
+@media  (min-width: 600px){
+  .MuiDrawer-paper {
+    width: 50% !important;
+  }
+}
